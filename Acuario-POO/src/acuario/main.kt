@@ -3,12 +3,13 @@ package acuario
 import Acuario.Acuario
 
 fun construirAcuario() {
-    val miAcuario = Acuario()
-    miAcuario.imprimirTamano()
-    miAcuario.alto = 60
-    miAcuario.imprimirTamano()
+    val acuario7 = Acuario(numeroDePeces = 29)
+    acuario7.imprimirTamano()
+    acuario7.volumen = 70
+    acuario7.imprimirTamano()
 
 }
+
 
 fun main() {
     construirAcuario()
