@@ -10,13 +10,6 @@ open class Acuario (open var largo: Int = 100, open var ancho: Int = 20, open va
     open val forma = "rectángulo"
     open var agua: Double = 0.0
         get() = volumen * 0.9
-
-//    constructor(numeroDePeces: Int) : this() {
-//        // 2,000 cm^3 por pez + espacio extra para que no se derrame
-//
-//        val tanque = numeroDePeces * 2000 * 1.1
-//        alto = (tanque / (largo * ancho)).toInt()
-//    }
     fun imprimirTamano() {
         println(forma)
         println("Ancho: $ancho cm " +
